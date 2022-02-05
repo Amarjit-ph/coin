@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.headerContainer h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.headerContainer input {
+  
+  padding: 5px 10px 5px 10px;
+  width: 250px;
+  height: 22px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.buttonContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttonContainer button {
+  font-weight: 500;
+  font-size: 14px;
+  width: 120px;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #0052FF;
+  color:white;
+}
+
+.buttonContainer button:hover {
+  background-color: #0052FF;
+  color:white;
+}
+
+.coinContainer {
+  display: flex;
+  flex-direction: column;
+}
+.quote{
+  margin-top: 20px;
+  width: 70%;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
