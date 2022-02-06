@@ -11,7 +11,7 @@ import React from "react";
 import Axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import "../Styles/CoinPage.css";
+import "../styles/CoinPage.css";
 
 function CoinPage() {
   let { id } = useParams();

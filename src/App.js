@@ -6,11 +6,11 @@
  * Year 2022
  */
 import React from "react";
-import "./Presentation/Styles/App.css";
+import "./presentation/styles/App.css";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
-import Home from "./Presentation/Pages/Home";
-import CoinPage from "./Presentation/Pages/CoinPage";
+import Home from "./presentation/pages/Home";
+import CoinPage from "./presentation/pages/CoinPage";
 
 function App() {
   return (

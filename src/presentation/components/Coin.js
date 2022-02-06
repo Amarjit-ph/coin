@@ -6,7 +6,7 @@
  * Year 2022
  */
 import React from "react";
-import "../Styles/Coin.css";
+import "../styles/Coin.css";
 import { useHistory } from "react-router-dom";
 
 const Coin = ({

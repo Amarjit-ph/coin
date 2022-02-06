@@ -9,10 +9,10 @@
 /* eslint-disable */ 
 import Axios from "axios";
 import { useState, useEffect } from "react";
-import Coin from "../Components/Coin";
-import { Constants } from "../../Common/constants";
+import Coin from "../components/Coin";
+import { Constants } from "../../common/constants";
 import LoadingBar from 'react-top-loading-bar'
-import "../Styles/App.css";
+import "../styles/App.css";
 
 function Home() {
   const [coins, setCoins] = useState([]);
