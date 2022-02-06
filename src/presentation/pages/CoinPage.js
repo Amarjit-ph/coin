@@ -6,7 +6,7 @@
  * Year 2022
  */
 
-/* eslint-disable */ 
+/* eslint-disable */
 import React from "react";
 import Axios from "axios";
 import { useState, useEffect } from "react";
@@ -29,11 +29,11 @@ function CoinPage() {
     return () => {
       // Anything in here is fired on component unmount.
       setCoin(null);
-  }
+    }
   }, []);
 
 
-  
+
 
   // if statement to check if data has reached, only then render the component
   if (coin) {
@@ -74,12 +74,13 @@ function CoinPage() {
             <div className="coinPage-Row">
               <h3 className="coinPage-RowHeader">24hr Low</h3>
               <h3 className="coinPage-RowData red">
-              ₹  {coin.market_data.low_24h.inr.toLocaleString()}
+                ₹  {coin.market_data.low_24h.inr.toLocaleString()}
               </h3>
             </div>
           </div>
+
           <Link to="/" style={{ textDecoration: 'none' }}>
-            <div className="coinPage-RouteButton">Go back</div>
+            <div className="coinPage-RouteButton">back</div>
           </Link>
         </div>
       </div>
